@@ -1,0 +1,170 @@
+.hidden {display: none;}
+* {margin: 0; padding: 0;}
+li {list-style-type: disc;}
+
+@font-face {
+  font-family: 'BookkMyungjo-Bd';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'STUNNING-Bd';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-2@1.0/STUNNING-Bd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  /* border: 5px solid red; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#bgc {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#top {
+  width: 100%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+}
+
+#clock-wrap {
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+  float: left;
+  line-height: 35px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 25px;
+}
+#weather {
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+  float: right;
+  line-height: 35px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 25px;
+
+}
+#weather span {
+}
+#main {
+  text-align: center;
+  /* border: 5px solid greenyellow; */
+  box-sizing: border-box;
+  align-items: center;
+}
+
+#quote {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 35px;
+  margin: 0 150px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  line-height: 2em;
+  font-family: 'BookkMyungjo-Bd';
+  border-bottom: 1px solid #fff;
+
+  padding-bottom: 20px;
+}
+#login-form input {
+  width: 200px;
+  /* height: 20px; */
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-style: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'STUNNING-Bd';
+}
+#login-form #login-btn {
+  width: 100px;
+  font-family: 'STUNNING-Bd';
+}
+#todo-form input {
+  width: 750px;
+  /* height: 20px; */
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-family: 'STUNNING-Bd';
+}
+
+#todo-list {
+  width: 70%;
+  height: 330px;
+  /* background-color: #fff; */
+  margin: auto;
+  /* border: 5px solid red; */
+  box-sizing: border-box;
+}
+#todo-list li {
+  display: inline-block;
+  width: 40%;
+  padding: 50px;
+  color: #fff;
+  padding: 10px 20px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'STUNNING-Bd';
+  /* border: 1px solid #000; */
+  text-shadow: 0 0 5px #000;
+  list-style-type: none;
+  line-height: 1.5em;
+}
+#todo-list li button {
+  background-color: #fff;
+  float: right;
+  color: #000;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px 10px;
+  border-style: none;
+  margin-left: 10px;
+}
+#todo-list li button:hover {
+  background-color: #ff6565;
+  color: #fff;
+}
+
+#greeting {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: 'STUNNING-Bd';
+}
